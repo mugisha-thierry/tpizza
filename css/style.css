@@ -66,10 +66,36 @@ h1{
     background-color: rgba(46, 44, 44, 0.8);
     border-radius: 25px;
     padding: 3.9em;
-    padding-top: 0%;
+    padding-top: 1.8em;
+    padding-bottom: 0%;
 }
 /* .result {
     display: flex;
     flex-direction: column;
     order: 2;
 } */
+
+#messa {
+    margin-top: 20px;
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    color: white;
+}
+
+#messa::placeholder {
+    color:black;
+}
+#amount{
+    background-color: transparent;
+    color: white;
+}
+#amount::placeholder {
+    color:black;
+}
+h6{
+    padding-top: 1.8em;
+}
+footer{
+    background-image: url(../images/last.jpg);
+}
