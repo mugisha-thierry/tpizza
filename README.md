@@ -1,6 +1,6 @@
 # TITI PZZA 
 ---
-Here is the link to TITI pizza online shop: https://mugisha-thierry.github.io/tpizza/
+Here is the link to TITI pizza online shop: 
 ---
 ![](images/picture2.png)
 ---
