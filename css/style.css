@@ -1,15 +1,16 @@
-body{
+body {
     background-color: black;
 }
+
 .jumbotron {
     background-image: url("../images/wallpaper1.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
     /* height: 600px; */
-
 }
-.card{
+
+.card {
     background-image: url("../images/wallpaper1.jpg");
     background-size: cover;
     background-position: center center;
@@ -17,11 +18,13 @@ body{
     padding-top: 0%;
     margin-top: 0%;
 }
+
 header {
     width: 100;
     /* background-color: rgb(55, 56, 55); */
-    color:black;
+    color: black;
 }
+
 nav ul {
     display: flex;
     box-flex: row;
@@ -42,12 +45,14 @@ nav li {
     padding-top: 0px;
     margin-top: 0%;
 }
-h1{
+
+h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
     padding: 0px;
     margin: 0px;
 }
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -58,9 +63,11 @@ h1{
 .flex-container>div {
     padding: 20px;
 }
-.flex-container p{
-    color:blue;
+
+.flex-container p {
+    color: blue;
 }
+
 .form-area {
     display: flex;
     background-color: rgba(46, 44, 44, 0.8);
@@ -69,39 +76,39 @@ h1{
     padding-top: 1.8em;
     padding-bottom: 0%;
 }
-/* .result {
-    display: flex;
-    flex-direction: column;
-    order: 2;
-} */
 
 #messa {
     margin-top: 20px;
-    /* height: 300px; */
     margin-bottom: 100px;
     background-color: transparent;
     color: white;
 }
 
 #messa::placeholder {
-    color:black;
+    color: black;
 }
-#amount{
+
+#amount {
     background-color: transparent;
     color: white;
 }
+
 #amount::placeholder {
-    color:black;
-}
-h6{
-    padding-top: 1.8em;
-}
-footer{
-    background-image: url(../images/last.jpg);
-}
-#descrptipn{
     color: black;
 }
-#addr{
+
+h6 {
+    padding-top: 1.8em;
+}
+
+footer {
+    background-image: url(../images/last.jpg);
+}
+
+#descrptipn {
+    color: black;
+}
+
+#addr {
     display: none;
 }
