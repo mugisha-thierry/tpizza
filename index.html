@@ -156,7 +156,7 @@
 
                                         <label for="number">Number of size</label>
                                         <input type="number" id="number" required><br>
-                                        <button onclick="address();">click here to see the<br> amount to pay</button>
+                                        <button onclick="show();">click here to see the<br> amount to pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -179,15 +179,17 @@
                         <div class="deliver">
                             <label for="deliver">Choose if you want<br> to be delivered</label>
 
-                            <select name="destination" id="destination" required>
+                            <!-- <select name="destination" id="destination" required>
                                 <option value="">None</option>
-                                <option ><button onclick="address();">yes</button></option>
+                                <option value="yes" >Yes</option>
                                 <option value="no">No</option>
-                            </select>
+                            </select> -->
 
+                            <button onclick="address();">No</button>
+                            <button onclick="address();" id="yes">Yes</button>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" id="addr">
                         <h5>address where the pizza will be delivered</h5>
                         <input type="text" placeholder="province">
                         <input type="text" placeholder="district">
@@ -199,8 +201,8 @@
 
             </div>
 
-            <button id="checkout">CheckOut</button><br>
-            <textarea name="" id="amount" cols="30" rows="5" placeholder="total amount to be paid"></textarea><br>
+            <button id="checkout" onclick="totall();">CheckOut</button><br>
+            <textarea name="" id="totalAmount" cols="30" rows="5" placeholder="total amount to be paid"></textarea><br>
             <button type="submit">Order now</button>
             <button type="reset">New order</button>
 
