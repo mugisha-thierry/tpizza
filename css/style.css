@@ -7,7 +7,6 @@ body {
     background-size: cover;
     background-position: center center;
     color: white;
-    /* height: 600px; */
 }
 
 .card {
@@ -21,27 +20,22 @@ body {
 
 header {
     width: 100;
-    /* background-color: rgb(55, 56, 55); */
     color: black;
 }
 
 nav ul {
     display: flex;
     box-flex: row;
-    /* padding-bottom: 10px; */
-    /* padding-top: 10px; */
     overflow: hidden;
 }
 
 nav a {
-    /* color: white; */
     color: black;
 }
 
 nav li {
     list-style: none;
     padding: 10px;
-    /* padding-bottom: 500px; */
     padding-top: 0px;
     margin-top: 0%;
 }
@@ -57,7 +51,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* padding-top: 300px; */
 }
 
 .flex-container>div {
