@@ -12,6 +12,7 @@
 // var thierry = new Order(size= priceSize, crust= priceCrust);
 
 // thierry.show();
+var total;
 
 function show(){
 
@@ -28,7 +29,7 @@ form.querySelectorAll('input').forEach(function(input){
 var sum = topping.reduce(function(a, b){
     return a + b;
 }, 0);
-var total= (priceCrust + priceSize + sum)*number;
+ total= (priceCrust + priceSize + sum)*number;
 // console.log(priceSize);
 // console.log(priceCrust);
 // console.log(topping);
@@ -37,4 +38,22 @@ document.getElementById('messa').value ="The amount to be paid for the pizza is 
 }
 function address(){
     alert("fill the address from where your Pizza will be delivered")
+}
+
+// document.getElementById("myBtn").addEventListener("click", myFunction);
+
+// function myFunction() {
+//   alert ("Hello World!");
+// }
+$(document).ready(function () {
+$('#yes').click(function () {
+
+    $('#addr').show()
+    // $('.design').hide()
+
+})
+})
+
+function totall(){
+    document.getElementById('totalAmount').value ="The total amount to be paid for the pizza is :"+ total + " and \n the amount for deliver is " + total;
 }
