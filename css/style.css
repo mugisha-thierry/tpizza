@@ -77,7 +77,7 @@ h1{
 
 #messa {
     margin-top: 20px;
-    height: 300px;
+    /* height: 300px; */
     margin-bottom: 100px;
     background-color: transparent;
     color: white;
