@@ -35,12 +35,12 @@
             <p class="text-center">Taste and Enjoy your life</p>
 
             <p class="text-center" id="descrptipn"> <b>This website allows you to buy pizza online and make it<br>
-                delivered to yourhome address.<br>
-                Choose the best crust for your pizza and toppings you want<br>
-                your pizza to have.<br>
-                you will be allowed to order many pizzas as you want and you will be<br>
-                showed the amount to pay<br>
-                Taste and enjoy your life.</b></p>
+                    delivered to yourhome address.<br>
+                    Choose the best crust for your pizza and toppings you want<br>
+                    your pizza to have.<br>
+                    you will be allowed to order many pizzas as you want and you will be<br>
+                    showed the amount to pay<br>
+                    Taste and enjoy your life.</b></p>
 
 
 
@@ -122,15 +122,16 @@
                                         </select><br>
 
                                         <h2>Toppings</h2>
-                                        <input type="checkbox" id="top" name="Asiago cheese" value=500 >Asiago cheese
-                                        <!-- <label for="Asiago cheese"> Asiago cheese</label> -->
-                                        <input type="checkbox" id="top" name="Meatballs" value=1000 >Meatballs
+                                        <input type="checkbox" id="top" name="Asiago cheese" value=500>Asiago cheese
+                                        
+                                        <input type="checkbox" id="top" name="Meatballs" value=1000>Meatballs
                                         <!-- <label for="Meatballs"> Meatballs</label> -->
-                                        <input type="checkbox" id="top" name="Cherry Tomatoes" value= 200>Cherry Tomatoes
+                                        <input type="checkbox" id="top" name="Cherry Tomatoes" value=200>Cherry Tomatoes
                                         <!-- <label for="Cherry Tomatoes"> Cherry Tomatoes</label> -->
                                         <input type="checkbox" id="top" name="Beef" value=600>Beef
                                         <!-- <label for="Beef"> Beef</label> -->
-                                        <input type="checkbox" id="top" name="Bell pepper" value="Bell pepper">Bell pepper<br>
+                                        <input type="checkbox" id="top" name="Bell pepper" value="Bell pepper">Bell
+                                        pepper<br>
                                         <!-- <label for="Bell pepper"> Bell pepper<br> -->
 
 
@@ -141,7 +142,7 @@
                                         <label for="Basil"> Basil</label>
                                         <input type="checkbox" id="top" name="Garlic" value=1200>
                                         <label for="Garlic"> Garlic</label>
-                                        <input type="checkbox" id="top" name="Onion" value= 100>
+                                        <input type="checkbox" id="top" name="Onion" value=100>
                                         <label for="Onion"> Onion</label>
 
                                         <input type="checkbox" id="top" name="Olive oil" value=700>
@@ -179,13 +180,8 @@
                         <div class="deliver">
                             <label for="deliver">Choose if you want<br> to be delivered</label>
 
-                            <!-- <select name="destination" id="destination" required>
-                                <option value="">None</option>
-                                <option value="yes" >Yes</option>
-                                <option value="no">No</option>
-                            </select> -->
 
-                            <button onclick="address();">No</button>
+                            <button>No</button>
                             <button onclick="address();" id="yes">Yes</button>
                         </div>
                     </div>
@@ -203,8 +199,8 @@
 
             <button id="checkout" onclick="totall();">CheckOut</button><br>
             <textarea name="" id="totalAmount" cols="30" rows="5" placeholder="total amount to be paid"></textarea><br>
-            <button type="submit">Order now</button>
-            <button type="reset">New order</button>
+            <button onclick="placeOrder();">Order now</button>
+            <button onclick="location.reload();">New order</button>
 
 
         </div>
@@ -231,7 +227,7 @@
                                 placeholder="Your message here..."></textarea>
                         </div>
                     </div>
-                    <button type="submit" onclick="calc();">submit</button>
+                    <button type="submit">submit</button>
                 </form>
 
                 <section id="Contact">
