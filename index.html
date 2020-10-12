@@ -84,70 +84,6 @@
             </div>
 
         </section>
-        <!-- <form onsubmit="return false">
-            <div class="form-area" id="registration">
-                <div class="msg-area">
-                    <label for="msg"><b>Choose the pizza size</b></label>
-
-                    <select name="siza" id="size" required>
-                        <option value="">None</option>
-                        <option value="small">Small</option>
-                        <option value="medium">medium</option>
-                        <option value="big">Big</option>
-                    </select>
-                    <div class="msg-area">
-                        <label for="msg"><b>Choose the pizza crust</b></label>
-
-                        <select name="crust" id="crust" required>
-                            <option value="">None</option>
-                            <option value="Crispy">Crispy</option>
-                            <option value="Stuffed">Stuffed</option>
-                            <option value="Gluten-free">Gluten-free</option>
-                            <option value="Omelet pizza">Omelet pizza</option>
-                            <option value="Potato chip crust pizza">Potato chip crust pizza</option>
-                        </select><br>
-
-                        <h2>Toppings</h2>
-                        <input type="checkbox" id="" name="Asiago cheese" value="Asiago cheese">
-                        <label for="Asiago cheese"> Asiago cheese</label>
-                        <input type="checkbox" id="" name="Meatballs" value="Meatballs">
-                        <label for="Meatballs"> Meatballs</label>
-                        <input type="checkbox" id="" name="Cherry Tomatoes" value="Cherry Tomatoes">
-                        <label for="Cherry Tomatoes"> Cherry Tomatoes</label>
-                        <input type="checkbox" id="" name="Beef" value="Beef">
-                        <label for="Beef"> Beef</label>
-                        <input type="checkbox" id="" name="Bell pepper" value="Bell pepper">
-                        <label for="Bell pepper"> Bell pepper</label><br>
-
-
-                        <input type="checkbox" id="Egg" name="Egg" value="Egg">
-                        <label for="Egg"> Egg</label>
-
-                        <input type="checkbox" id="" name="Basil" value="Basil">
-                        <label for="Basil"> Basil</label>
-                        <input type="checkbox" id="" name="Garlic" value="Garlic">
-                        <label for="Garlic"> Garlic</label>
-                        <input type="checkbox" id="" name="Onion" value="Onion">
-                        <label for="Onion"> Onion</label>
-
-                        <input type="checkbox" id="" name="Olive oil" value="Olive oil">
-                        <label for="Olive oil"> Olive oil</label>
-                        <input type="checkbox" id="" name="Mushroom" value="Mushroom">
-                        <label for="Mushroom"> Mushroom</label>
-                        <input type="checkbox" id="" name="Spinach" value="Spinach">
-                        <label for="Spinach"> Spinach</label>
-
-                    </div>
-                    <div class="number1">
-
-                        <label for="number">Number of size</label>
-                        <input type="number" id="day" required>
-                    </div>
-                </div>
-            </div>
-
-
-        </form> -->
     </div>
 
     <div class="card">
@@ -161,7 +97,7 @@
                     <div class="col">
 
 
-                        <form onsubmit="return false">
+                        <form onsubmit="return false" id="form1">
                             <div class="form-area" id="registration">
 
                                 <div class="msg-area">
@@ -169,58 +105,58 @@
 
                                     <select name="siza" id="size" required>
                                         <option value="">None</option>
-                                        <option value="small">Small</option>
-                                        <option value="medium">medium</option>
-                                        <option value="big">Big</option>
+                                        <option value="2000">Small :2,000rwf</option>
+                                        <option value="3500">medium :3,500rwf</option>
+                                        <option value="5000">Big : 5,000rwf</option>
                                     </select>
                                     <div class="msg-area">
                                         <label for="msg"><b>Choose the pizza crust</b></label>
 
                                         <select name="crust" id="crust" required>
                                             <option value="">None</option>
-                                            <option value="Crispy">Crispy</option>
-                                            <option value="Stuffed">Stuffed</option>
-                                            <option value="Gluten-free">Gluten-free</option>
-                                            <option value="Omelet pizza">Omelet pizza</option>
-                                            <option value="Potato chip crust pizza">Potato chip crust pizza</option>
+                                            <option value="2300">Crispy :2,300rwf</option>
+                                            <option value="2500">Stuffed : 2,500rwf</option>
+                                            <option value="1500">Gluten-free : 1,500rwf</option>
+                                            <option value="2000">Omelet pizza :2,00rwf</option>
+                                            <option value="1000">Potato chip crust pizza :1,000rwf</option>
                                         </select><br>
 
                                         <h2>Toppings</h2>
-                                        <input type="checkbox" id="" name="Asiago cheese" value="Asiago cheese">
-                                        <label for="Asiago cheese"> Asiago cheese</label>
-                                        <input type="checkbox" id="" name="Meatballs" value="Meatballs">
-                                        <label for="Meatballs"> Meatballs</label>
-                                        <input type="checkbox" id="" name="Cherry Tomatoes" value="Cherry Tomatoes">
-                                        <label for="Cherry Tomatoes"> Cherry Tomatoes</label>
-                                        <input type="checkbox" id="" name="Beef" value="Beef">
-                                        <label for="Beef"> Beef</label>
-                                        <input type="checkbox" id="" name="Bell pepper" value="Bell pepper">
-                                        <label for="Bell pepper"> Bell pepper</label><br>
+                                        <input type="checkbox" id="top" name="Asiago cheese" value=500 >Asiago cheese
+                                        <!-- <label for="Asiago cheese"> Asiago cheese</label> -->
+                                        <input type="checkbox" id="top" name="Meatballs" value=1000 >Meatballs
+                                        <!-- <label for="Meatballs"> Meatballs</label> -->
+                                        <input type="checkbox" id="top" name="Cherry Tomatoes" value= 200>Cherry Tomatoes
+                                        <!-- <label for="Cherry Tomatoes"> Cherry Tomatoes</label> -->
+                                        <input type="checkbox" id="top" name="Beef" value=600>Beef
+                                        <!-- <label for="Beef"> Beef</label> -->
+                                        <input type="checkbox" id="top" name="Bell pepper" value="Bell pepper">Bell pepper<br>
+                                        <!-- <label for="Bell pepper"> Bell pepper<br> -->
 
 
-                                        <input type="checkbox" id="Egg" name="Egg" value="Egg">
+                                        <input type="checkbox" id="top" name="Egg" value=100>
                                         <label for="Egg"> Egg</label>
 
-                                        <input type="checkbox" id="" name="Basil" value="Basil">
+                                        <input type="checkbox" id="top" name="Basil" value=200>
                                         <label for="Basil"> Basil</label>
-                                        <input type="checkbox" id="" name="Garlic" value="Garlic">
+                                        <input type="checkbox" id="top" name="Garlic" value=1200>
                                         <label for="Garlic"> Garlic</label>
-                                        <input type="checkbox" id="" name="Onion" value="Onion">
+                                        <input type="checkbox" id="top" name="Onion" value= 100>
                                         <label for="Onion"> Onion</label>
 
-                                        <input type="checkbox" id="" name="Olive oil" value="Olive oil">
+                                        <input type="checkbox" id="top" name="Olive oil" value=700>
                                         <label for="Olive oil"> Olive oil</label>
-                                        <input type="checkbox" id="" name="Mushroom" value="Mushroom">
+                                        <input type="checkbox" id="top" name="Mushroom" value=800>
                                         <label for="Mushroom"> Mushroom</label>
-                                        <input type="checkbox" id="" name="Spinach" value="Spinach">
+                                        <input type="checkbox" id="top" name="Spinach" value=900>
                                         <label for="Spinach"> Spinach</label>
 
                                     </div>
                                     <div class="number1">
 
                                         <label for="number">Number of size</label>
-                                        <input type="number" id="day" required><br>
-                                        <button>click here to see the<br> amount to pay</button>
+                                        <input type="number" id="number" required><br>
+                                        <button onclick="address();">click here to see the<br> amount to pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +181,7 @@
 
                             <select name="destination" id="destination" required>
                                 <option value="">None</option>
-                                <option value="yes">Yes</option>
+                                <option ><button onclick="address();">yes</button></option>
                                 <option value="no">No</option>
                             </select>
 
