@@ -105,3 +105,17 @@ footer {
 #addr {
     display: none;
 }
+button{
+    border-radius: 20px;
+}
+h6{
+    color: white;
+}
+.bre {
+    color:yellow;
+    font-size: 20px;
+}
+
+.fas, .fab {
+    color:black;
+}
