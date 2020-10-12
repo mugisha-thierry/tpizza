@@ -47,13 +47,14 @@ function address(){
 // }
 $(document).ready(function () {
 $('#yes').click(function () {
-
     $('#addr').show()
-    // $('.design').hide()
 
 })
 })
 
 function totall(){
-    document.getElementById('totalAmount').value ="The total amount to be paid for the pizza is :"+ total + " and \n the amount for deliver is " + total;
+    document.getElementById('totalAmount').value ="The total amount to be paid for the pizza is :"+" "+ total
+}
+function placeOrder(){
+    alert("thanks for shopping with us.")
 }
